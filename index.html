@@ -1,0 +1,94 @@
+Skip to content
+Why GitHub?
+Enterprise
+Explore
+Marketplace
+Pricing
+Search
+
+Sign in
+Sign up
+785.1k635mzabriskie/react-draggable
+ Code Issues 98 Pull requests 24 Projects 0 Security Insights
+Join GitHub today
+GitHub is home to over 40 million developers working together to host and review code, manage projects, and build software together.
+
+react-draggable/example/index.html
+@STRML STRML Rework build process & add "module" to package.json. (#441)
+e055f96 on 26 Oct
+@STRML@mzabriskie@kentcdodds@davidstubbs
+65 lines (61 sloc)  1.35 KB
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>React Draggable</title>
+  <style type="text/css">
+    * {
+      box-sizing: border-box;
+    }
+    html, body {
+      height: 100%;
+    }
+    body {
+      color: #222;
+      font-family: "Helvetica Neue", sans-serif;
+      font-weight: 200;
+      margin: 0 50px;
+    }
+    .react-draggable, .cursor {
+      cursor: move;
+    }
+    .no-cursor {
+      cursor: auto;
+    }
+    .cursor-y {
+      cursor: ns-resize;
+    }
+    .cursor-x {
+      cursor: ew-resize;
+    }
+    .react-draggable strong {
+      background: #ddd;
+      border: 1px solid #999;
+      border-radius: 3px;
+      display: block;
+      margin-bottom: 10px;
+      padding: 3px 5px;
+      text-align: center;
+    }
+    .box {
+      background: #fff;
+      border: 1px solid #999;
+      border-radius: 3px;
+      width: 180px;
+      height: 180px;
+      margin: 10px;
+      padding: 10px;
+      float: left;
+    }
+  </style>
+</head>
+<body>
+<div id="container"></div>
+<script src="//unpkg.com/react@16/umd/react.development.js"></script>
+<script src="//unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<script src="../build/web/react-draggable.min.js"></script>
+<!-- for imported script -->
+<script src="//unpkg.com/@babel/standalone/babel.min.js"></script>
+<script type="text/babel" src="../example/example.js"></script>
+</body>
+</html>
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
